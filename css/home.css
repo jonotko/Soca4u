@@ -1,0 +1,53 @@
+/* Google Fonts */ 
+
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif:700italic&subset=latin,cyrillic-ext); /*font-family: 'Noto Serif', serif;*/
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700); /* font-family: 'Oswald', sans-serif; */
+
+
+/* Navbar area */
+.navbar-inverse {
+    background-color: #000;
+}
+
+nav>div[class="container"] {
+    padding:5px
+}
+
+.nav-pills>li>a, .navbar-inverse a.navbar-brand {
+    color:white;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-inverse a.navbar-brand {
+    font-size: 20px;
+}
+
+.nav-pills>li>a:hover{
+    background-color: #d00;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover {
+    background-color:#d00;
+}
+
+/* Latest section Css */
+
+.jumbotron h1 {
+    width:100%;
+    text-align: center;
+    margin-top:50px
+    
+}
+
+.latestsection {
+    margin-top:30px;
+}
+.dontshow{
+    display: none;
+}
+.doshow{
+    display: block;
+}
+
+/* Media Queries */
